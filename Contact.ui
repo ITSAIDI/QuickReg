@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="Background_Label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1600</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Home_Button">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>15</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Home_Button
+{
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 0px solide rgba(0,0,0,0)
+}
+QPushButton#Home_Button:hover
+{
+background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}
+QPushButton#Home_Button:pressed
+{
+    
+	color: rgb(0, 0, 0);
+	background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Contact_Button">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>15</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Contact_Button
+{
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 0px solide rgba(0,0,0,0)
+}
+QPushButton#Contact_Button:hover
+{
+background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}
+QPushButton#Contact_Button:pressed
+{
+    
+	color: rgb(0, 0, 0);
+	background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Contact</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AboutUs_Button">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>15</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#AboutUs_Button
+{
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 0px solide rgba(0,0,0,0)
+}
+QPushButton#AboutUs_Button:hover
+{
+background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}
+QPushButton#AboutUs_Button:pressed
+{
+    
+	color: rgb(0, 0, 0);
+	background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>About Us</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>420</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Message Us</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Email_Edit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>480</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit#Email_Edit
+{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 3px solid rgb(255, 255, 255);
+border-radius:10px;
+
+}
+QLineEdit#Email_Edit:focus
+{
+border : 3px solid rgb(53, 218, 255);
+	
+
+
+}
+
+
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Message_Edit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>731</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit#Message_Edit
+{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 3px solid rgb(255, 255, 255);
+border-radius:10px;
+
+}
+QLineEdit#Message_Edit::focus
+{
+border : 3px solid rgb(53, 218, 255);
+
+
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="placeholderText">
+     <string>Message</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Submit_Button">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>740</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family> Abdoullah Ashgar EL-kharef</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Submit_Button
+{
+background-color: rgb(255, 255, 255);
+border-radius:12px;
+}
+
+
+QPushButton#Submit_Button:hover
+{
+	
+	
+	background-color: rgb(62, 168, 234);
+
+}
+
+QPushButton#Submit_Button:pressed
+{
+background-color:rgb(255, 255, 255);
+
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
